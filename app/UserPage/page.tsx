@@ -2,8 +2,7 @@ import React from 'react';
 import './User1Layout.css';
 import './UserPage.css';
 import ChatHistory from './ChatHistory';
-import MessageInput from './MessageInput'; // Import the MessageInput component
-
+import Link from 'next/link'
 export default function UserLayout() {
   return (
 
@@ -13,7 +12,8 @@ export default function UserLayout() {
       </div>
       <div className="chat-container">
         <div>
-         <input type="text" Placeholder = "Enter Email"/>
+        <Link class="Message" href={'/MessageInput/'}> Message Input  </Link>
+        <Link class="Message" href={'//'}> Home  </Link>
          <input type="text" Placeholder = "Enter UserName"/>
 </div>
       </div>
