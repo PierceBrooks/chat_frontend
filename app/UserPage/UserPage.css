@@ -24,3 +24,9 @@ input
      width:25%;
       border:black solid 7px;
 }
+
+.UrName
+{
+    position:relative;
+    top:70px;
+}

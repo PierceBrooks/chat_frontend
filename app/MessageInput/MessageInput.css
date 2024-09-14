@@ -36,6 +36,19 @@
 {
      display:flex;
      position:relative;
-     top:300px;
+     top:700px;
      right:550px;
+     color: Black;
+}
+#Online
+{
+    border: solid black 5px;
+    height:50px;
+    border-radius:25px;
+    width:50px;
+}
+
+#container
+{
+    display:flex;
 }

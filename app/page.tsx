@@ -5,8 +5,10 @@ export default function Home() {
   return (
    <div>
    <h1>Welcome to the Chat Page</h1>
-    <Link class="Message" href={'/UserPage/'}> User Page  </Link>
-    <Link class="Message" href={'/MessageInput/'}> Message Input  </Link>
+    <Link className="Message" href={'/UserPage/'}> User Page  </Link>
+    <Link className="Message" href={'/MessageInput/'}> Message Input  </Link>
    </div>
   );
 }
+
+
